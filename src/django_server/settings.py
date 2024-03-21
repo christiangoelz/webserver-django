@@ -126,3 +126,5 @@ STATIC_URL = '/static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 APPEND_SLASH = False
+
+DATA_UPLOAD_MAX_MEMORY_SIZE = 1048576000 # set max upload size to 1GB
